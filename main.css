@@ -1,0 +1,144 @@
+body {
+    font-family: Lato, Arial, sans-serif;
+    background-color: #a4a5a6;
+}
+
+#navBar {
+    background-color: #58585a;
+}
+
+#navLogo {
+    height: 66px;
+    width: auto;
+}
+
+#navContent ul li a {
+    font-weight: medium;
+    color: #f9fafc;
+}
+
+/* Normal top fold for tablet and mobile */
+    
+    #fold1desktop {
+        display: none;
+    }
+    
+    #fold1bg {
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #fold1 {
+        padding: 100px 0 0 0;
+        color: #f9fafc;
+        font-weight: medium;
+    }
+
+    #headline h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #headline h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    #headline h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #reel {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #features h1 {
+        font-weight: medium;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    #features p {
+        font-weight: medium;
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    #navLogo {
+    height: 40px;
+    width: auto;
+    }
+}
+
+
+/* Image rotator for desktop size */
+/*@media screen and (min-width: 1200px) {
+    
+    /*should make the header taller, mayb in own place
+    
+    #fold1 {
+        display: none;
+    }
+
+    #fold1desktop {
+        display: inherit;
+        padding: 80px 0 0 0;
+    }
+
+    #reel {
+        
+    }
+
+} */
+
+
+/* Remaining content for all screen sizes */
+
+#fold2wrap {
+    width: 100%;
+    height: auto;
+    background-color: #f9fafc; 
+}
+
+#fold2 {
+    background-color: #f9fafc;
+}
+
+#fold2 h1 {
+    font-weight: medium;
+    font-style: italic;
+    font-size: 30px;
+    color: #536263
+}
+
+#fold2 p {
+    font-weight: light;
+    font-size: 24px;
+    color: #536263;
+}
+
+#fold2 a {
+    font-size: 24px;
+}
+
+#fold2image img{
+    width: 100%;
+    height: auto;
+}
+
+
+#fold3 {
+    background-color: #a4a5a6;   
+}
+
+#fold3 h1 {
+    float: left;   
+}
