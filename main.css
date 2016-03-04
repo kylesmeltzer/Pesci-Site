@@ -5,16 +5,23 @@ body {
 
 #navBar {
     background-color: #58585a;
-}
-
-#navLogo {
-    height: 66px;
-    width: auto;
+    height: 72px;
 }
 
 #navContent ul li a {
     font-weight: medium;
     color: #f9fafc;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #83d3eb;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+    font-color: #fff;
 }
 
 /* Normal top fold for tablet and mobile */
@@ -67,8 +74,8 @@ body {
     }
 
     #features p {
-        font-weight: medium;
-        font-size: 3em;
+        font-weight: light;
+        font-size: 2em;
         text-align: center;
     }
     
@@ -133,7 +140,6 @@ body {
     width: 100%;
     height: auto;
 }
-
 
 #fold3 {
     background-color: #a4a5a6;   
